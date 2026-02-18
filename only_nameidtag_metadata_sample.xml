@@ -1,0 +1,10 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" validUntil="2026-02-20T07:21:36.689Z" entityID="https://mercedes.inetDrop7-dev-lb1.verify.idassert.com/authgw-sp/saml/salesforce/entity">
+<md:SPSSODescriptor validUntil="2026-02-20T07:21:36.689220804Z" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="false" WantAssertionsSigned="false">
+<md:NameIDFormat/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://mercedes.inetDrop7-dev-lb1.verify.idassert.com/authgw-sp/saml/salesforce/acs" index="0" isDefault="true"/>
+<md:AttributeConsumingService index="0" isDefault="true">
+<md:ServiceName xml:lang="en">AuthGateway</md:ServiceName>
+<md:RequestedAttribute FriendlyName="" Name="IDPEmail" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+</md:AttributeConsumingService>
+</md:SPSSODescriptor>
+</md:EntityDescriptor>
